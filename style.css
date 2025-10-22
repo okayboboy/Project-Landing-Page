@@ -96,4 +96,33 @@ a { text-decoration: none; color: inherit;}
     text-align: center;
 }
 
+.section-3 {
+    background-color: whitesmoke;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+    
+}
+
+.quote-contain{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 10vw;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.quote {
+    margin-bottom: 16px;
+    font-style: oblique;
+    font-size: 4ch;
+    text-align: left;
+    font-weight: 600;
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: bold;
+}
+
 
