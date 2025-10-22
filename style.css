@@ -159,6 +159,14 @@ button{
     
 }
 
+.footer{
+    background-color: bisque;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
 
+.copyright{
+    text-align: center;
+}
 
 
