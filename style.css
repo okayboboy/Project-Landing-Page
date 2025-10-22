@@ -81,6 +81,7 @@ a { text-decoration: none; color: inherit;}
     align-items: center;
     flex-direction: column;
     flex: 0 1 300px;
+    justify-content: flex-start;
 }
 
 .card-image{
@@ -91,7 +92,7 @@ a { text-decoration: none; color: inherit;}
 
 .card-description{
     /* width: 100%; */
-    flex: 0 1 300px;
+    /* flex: 0 1 300px; */
     text-align: center;
 }
 
