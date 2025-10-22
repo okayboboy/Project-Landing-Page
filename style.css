@@ -1,9 +1,10 @@
 body{
     padding: 0px;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body > *{
+section{
 padding: 8px 10vw;
 }
 
@@ -12,7 +13,7 @@ padding: 8px 10vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(239, 240, 172);
 }
 
 a { text-decoration: none; color: inherit;}
@@ -20,3 +21,12 @@ a { text-decoration: none; color: inherit;}
 .logo{height: 120px;}
 
 .nav-bar-links{display: flex; gap: 24px;}
+
+.section-1 {
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.section-1 > *{
+    width: 30vw;
+}
